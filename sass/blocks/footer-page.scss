@@ -1,0 +1,38 @@
+.footer-page {
+  background: url("../img/bg-slider.jpg");
+}
+
+.footer-page__wrapper {
+  display: flex;
+  padding-left: 41px;
+  justify-content: space-between;
+}
+
+.footer-page__toll-free {
+  font-family: "forumregular", "Arial", sans-serif;
+  font-size: 41px;
+  color: #230000;
+  margin: 23px 0;
+  span {
+    color: #a80002;
+  }
+}
+
+.footer-page__follow-us {
+  margin: 23px 117px 23px 0;
+  p {
+    font-family: "forumregular", "Arial", sans-serif;
+    font-size: 41px;
+    color: #230000;
+    margin: 0;
+  }
+}
+
+.footer-page__TemplateMonster {
+  font-family: "Trebuchet", "Arial", sans-serif;
+  font-size: 13px;
+  margin-bottom: 60px;
+  span a{
+    color: #b71515;
+  }
+}

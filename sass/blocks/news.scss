@@ -1,0 +1,117 @@
+.news {
+  background: #faf3ed;
+  display: flex;
+}
+
+.news__wrapper {
+  display: flex;
+}
+
+.news__upcoming-events-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news__upcoming-events {
+  margin-left: 20px;
+  margin-right: 43px;
+  width: 987px;
+  h2 {
+    font-family: "forumregular", "Arial", sans-serif;
+    font-size: 41px;
+    color: #200000;
+  }
+  p {
+    font-family: 'Georgia', "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  span {
+    color: red;
+  }
+}
+
+.news__upcoming-event-item {
+  width: 282px;
+  height: 103px;
+  margin-bottom: 30px;
+  display: flex;
+  margin-right: 60px;
+}
+
+.news__upcoming-event-nomargin {
+  margin-right: 0;
+}
+
+.news__testimonials {
+  h2 {
+    font-family: "forumregular", "Arial", sans-serif;
+    font-size: 41px;
+    color: #200000;
+    margin-top: 45px;
+  }
+  ul {
+    font-family: 'Georgia', "Arial", sans-serif;
+    font-size: 14px;
+    p {
+      font-family: 'ZapfinoLinotypeOne', "Arial", sans-serif;
+      font-size: 34px;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 10px;
+      list-style-type: none;
+      margin-left: 25px;
+    }
+  }
+}
+
+.news__Jimmy,
+.news__Marcus,
+.news__Samuel {
+  position: relative;
+}
+
+.news__Jimmy::before {
+  content: "1";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: red;
+  color: white;
+  font-family: 'Georgia', "Arial", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  top: -10px;
+  left: -65px;
+}
+
+.news__Marcus::before {
+  content: "2";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: red;
+  color: white;
+  font-family: 'Georgia', "Arial", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  top: -10px;
+  left: -65px;
+}
+
+.news__Samuel::before {
+  content: "3";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: red;
+  color: white;
+  font-family: 'Georgia', "Arial", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  top: -10px;
+  left: -65px;
+}
